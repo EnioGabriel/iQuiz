@@ -18,14 +18,12 @@ class QuestaoViewController: UIViewController {
     }
     
     @IBAction func respostaBotao(_ sender: UIButton) {
-        print(sender.tag)
     }
     
     func configurarLayout(){
         navigationItem.hidesBackButton = true
         
         for botao in respostaBotoes {
-            print(botao.tag)
             botao.layer.cornerRadius = 12.0
         }
     }
