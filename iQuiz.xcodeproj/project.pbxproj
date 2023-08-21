@@ -13,6 +13,9 @@
 		821A9FDD2A8C5D1300359B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821A9FDB2A8C5D1300359B39 /* Main.storyboard */; };
 		821A9FDF2A8C5D1400359B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821A9FDE2A8C5D1400359B39 /* Assets.xcassets */; };
 		821A9FE22A8C5D1400359B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821A9FE02A8C5D1400359B39 /* LaunchScreen.storyboard */; };
+		8255F4492A93D5050051105E /* Questao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8255F4482A93D5050051105E /* Questao.swift */; };
+		8255F44B2A93E0650051105E /* DesempenhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8255F44A2A93E0650051105E /* DesempenhoViewController.swift */; };
+		8255F4502A93F0170051105E /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8255F44F2A93F0170051105E /* UIColor+.swift */; };
 		82B8606A2A92C9D700E29866 /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B860692A92C9D700E29866 /* QuestaoViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 		821A9FDE2A8C5D1400359B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		821A9FE12A8C5D1400359B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		821A9FE32A8C5D1400359B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8255F4482A93D5050051105E /* Questao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questao.swift; sourceTree = "<group>"; };
+		8255F44A2A93E0650051105E /* DesempenhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenhoViewController.swift; sourceTree = "<group>"; };
+		8255F44F2A93F0170051105E /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		82B860692A92C9D700E29866 /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,16 +64,44 @@
 		821A9FD42A8C5D1300359B39 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				8255F4512A93F0300051105E /* Extensões */,
+				8255F44D2A93EE710051105E /* Modelo */,
+				8255F44C2A93EE2B0051105E /* ViewController */,
 				821A9FD52A8C5D1300359B39 /* AppDelegate.swift */,
 				821A9FD72A8C5D1300359B39 /* SceneDelegate.swift */,
-				821A9FD92A8C5D1300359B39 /* ViewController.swift */,
 				821A9FDB2A8C5D1300359B39 /* Main.storyboard */,
 				821A9FDE2A8C5D1400359B39 /* Assets.xcassets */,
 				821A9FE02A8C5D1400359B39 /* LaunchScreen.storyboard */,
 				821A9FE32A8C5D1400359B39 /* Info.plist */,
-				82B860692A92C9D700E29866 /* QuestaoViewController.swift */,
 			);
 			path = iQuiz;
+			sourceTree = "<group>";
+		};
+		8255F44C2A93EE2B0051105E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8255F44A2A93E0650051105E /* DesempenhoViewController.swift */,
+				82B860692A92C9D700E29866 /* QuestaoViewController.swift */,
+				821A9FD92A8C5D1300359B39 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8255F44D2A93EE710051105E /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				8255F4482A93D5050051105E /* Questao.swift */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		8255F4512A93F0300051105E /* Extensões */ = {
+			isa = PBXGroup;
+			children = (
+				8255F44F2A93F0170051105E /* UIColor+.swift */,
+			);
+			name = "Extensões";
+			path = "Extensões";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +178,10 @@
 				821A9FDA2A8C5D1300359B39 /* ViewController.swift in Sources */,
 				821A9FD62A8C5D1300359B39 /* AppDelegate.swift in Sources */,
 				821A9FD82A8C5D1300359B39 /* SceneDelegate.swift in Sources */,
+				8255F4492A93D5050051105E /* Questao.swift in Sources */,
+				8255F44B2A93E0650051105E /* DesempenhoViewController.swift in Sources */,
 				82B8606A2A92C9D700E29866 /* QuestaoViewController.swift in Sources */,
+				8255F4502A93F0170051105E /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
